@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "caloreme-backend"
+version = "0.1.0"
+description = "Django GraphQL backend for Caloreme"
+requires-python = ">=3.12"
+dependencies = [
+  "Django>=5.2,<6.0",
+  "django-cors-headers>=4.7,<5.0",
+  "graphene-django>=3.2,<4.0",
+]
+
+[tool.setuptools]
+packages = ["config", "core"]

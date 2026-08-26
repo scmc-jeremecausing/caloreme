@@ -1,0 +1,22 @@
+
+# FVM Version Cache
+.fvm/
+
+# Python and Django
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.sqlite3
+.pytest_cache/
+htmlcov/
+
+# Node and Vite
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local environment configuration
+.env
+!.env.example
